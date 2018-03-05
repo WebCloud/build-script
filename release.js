@@ -48,7 +48,7 @@ if (updateMaster) {
 commandPromise.then(() => {
   const { version } = require('../package.json');
   return executeWithMessage(`Pushing new git tag v${version}`, `git push origin refs/tags/v${version}:refs/tags/v${version}`)();
-}).then(executeWithMessage('Bundling new NPM release', 'yarn build'))
+}).then(executeWithMessage('Bundling new NPM release', 'npm run build'))
   .then(executeWithMessage('Publishing release to registry', 'npm publish'))
   .then(() => {
     const { name, version } = require('../package.json');
