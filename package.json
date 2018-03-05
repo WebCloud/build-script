@@ -1,0 +1,24 @@
+{
+  "name": "build-script",
+  "version": "0.1.0",
+  "description": "Just a simple build script",
+  "main": "release.js",
+  "scripts": {
+    "build": "echo \"Error: no build script yet implemented\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebCloud/build-script.git"
+  },
+  "keywords": [
+    "npm",
+    "release",
+    "automated"
+  ],
+  "author": "Vinicius Dallacqua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebCloud/build-script/issues"
+  },
+  "homepage": "https://github.com/WebCloud/build-script#readme"
+}
