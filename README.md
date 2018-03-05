@@ -13,4 +13,4 @@ So with that you can use `yarn release:npm --major|minor|patch`. It also include
         * Given that current version is `0.9.3` and you run `yarn release:npm --major --rc` it will result the following change: *from* ~~`0.9.3`~~ *to* `1.0.0-0`
 
 
-Notice that in order to release to NPM you need to be logged in via `npm login`. Or have a `.npmrc` with the details of your credentials/private registry if that's desired.
+**Notice**: In order to release to NPM you need to be logged in via `npm login`. Or have a `.npmrc` with the details of your credentials/private registry if that's desired.
